@@ -22,3 +22,7 @@ Procházejte jednotlivé sekce webu pomocí navigačního menu v horní části 
 
 Tento projekt je licencován pod MIT licencí.
 
+## Návod
+
+Web je v zip souboru, nebo jsou i soubory zvlášť.
+
