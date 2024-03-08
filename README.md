@@ -10,6 +10,7 @@ Tento web poskytuje informace o historii, kultuře a legendách skateboardingu.
 ## Použití
 
 Procházejte jednotlivé sekce webu pomocí navigačního menu v horní části stránky. Můžete také použít vyhledávací pole k rychlému vyhledání informací na webu.
+**Web je responzivní**
 
 ## Obsah
 
