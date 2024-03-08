@@ -2,7 +2,7 @@
 
 Tento web poskytuje informace o historii, kultuře a legendách skateboardingu.
 
-##Technologie
+## Technologie
 - **HTML**
 - **CSS**
 - **JAVASCRIPT**
