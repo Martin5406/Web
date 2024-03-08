@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    width: auto;
+    margin: -20px 0 20px; 
+}
+
+header img {
+    max-width: 80px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 25px; 
+}
+
+a{ 
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(155, 13, 13);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #747474;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+main {
+    margin-top: 25px; 
+}
+
+main div {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+main div h3, h4 {
+    color: #000000;
+    margin-top: 15px;
+}
+h4{
+    text-decoration: underline;
+}
+main div p {
+    color: #000000;
+}
+
+main div img {
+    max-width: 100%;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+h2{
+    margin-bottom: 5px;
+}
+section{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+footer{
+    background-color:  #e0e0e0;
+    width: 100%;
+    padding: 20px;
+}
+footer img{
+    margin-top: 15px;
+    width: 25px;
+}
+
+.copyright{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.legendy img{
+    max-width: 20%;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 425px) {
+    h1 {
+        font-size: 30px
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul {
+        margin-top: 20px;
+        padding: 0; 
+    }
+
+    header ul li {
+        display: block; 
+        margin-bottom: 10px;
+        margin-top: 2px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    main div {
+        padding: 10px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    .search-bar input[type="text"] {
+        padding: 5px; 
+        font-size: 14px;
+        margin-bottom: 10px; 
+    }
+
+    .search-bar button {
+        padding: 8px 16px;
+    }
+
+    .legendy img {
+        min-width: 50%; 
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul {
+        margin-top: 20px;
+    }
+    .search-bar {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    .legendy img {
+        min-width: 50%; 
+    }
+    h1{
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (min-width: 2500px){
+    body{
+        font-size: 50px;
+    }
+}
